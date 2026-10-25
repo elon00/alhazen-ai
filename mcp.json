@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "alhazen-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "ALHAZEN",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "trace_intromission_ray_cone",
+          "description": "Traces incident light rays into the ocular pupil lens matrix validating intromission vision",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "focal_length_mm": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "focal_length_mm"
+            ]
+          }
+        },
+        {
+          "name": "simulate_camera_obscura_aperture",
+          "description": "Calculates pinhole diffraction resolution and luminous flux intensity across projection planes",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "aperture_diameter_mm": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "aperture_diameter_mm"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
