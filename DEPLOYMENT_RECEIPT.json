@@ -1,0 +1,14 @@
+{
+  "project": "alhazen-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "44QyLjH61bVA39ZexuHoGwQuWkVBsAUM4zYmPemLjaFK",
+  "vault_account": "6hqaSnYHKZet7CWy7DuFBhEHEFyETCc5tbTXq8gw3XCH",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "2YdpZDGvvj7pYp2JP4jvyGwfQS6o4zr8pwLMhyMDDMvirMWwcipoAbzxERBT72Rrxt5pk9gPrAkg4gXKEJoDwL45",
+  "account_tx": "3fwZvwBStwub7KJ7FYgk9gY2fUs6e1yrV9JhPKUSrWMNKBbh2jSpKtmq1gbE7z2xUtfmatSd4QKNVzoVYC4KcCWm",
+  "mint_tx": "3Hf83AEe7wBWtPd84Tccynfyx119SngxvgBLaf44GRVEF5kiP6M7qfw6GA5geCAGVepWQV13aJP25Di3R47wMc1Y",
+  "solana_explorer_mint": "https://explorer.solana.com/address/44QyLjH61bVA39ZexuHoGwQuWkVBsAUM4zYmPemLjaFK?cluster=devnet",
+  "timestamp": "2026-10-26 16:17:20 UTC"
+}
